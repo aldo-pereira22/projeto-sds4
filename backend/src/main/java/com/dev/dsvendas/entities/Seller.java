@@ -19,6 +19,9 @@ public class Seller {
 	@GeneratedValue(strategy =  GenerationType.IDENTITY)
 	private Long id;
 	private String name;
+	public Seller() {
+		// TODO Auto-generated constructor stub
+	}
 	
 	@OneToMany(mappedBy = "seller")
 	private List<Sale> sales = new ArrayList<>();
