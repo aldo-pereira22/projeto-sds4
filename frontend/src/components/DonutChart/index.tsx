@@ -28,7 +28,7 @@ const DonutChart = () => {
 
             console.log(chartData);
         });
-    }, [] );
+    }, );
 
 
 
@@ -55,7 +55,7 @@ const DonutChart = () => {
   
 export default DonutChart;
 
-function labels<T>(labels: any, arg1: never[], series: any, arg3: never[]): [any, any] {
-    throw new Error('Function not implemented.');
-}
+// function labels<T>(labels: any, arg1: never[], series: any, arg3: never[]): [any, any] {
+//     throw new Error('Function not implemented.');
+// }
   
